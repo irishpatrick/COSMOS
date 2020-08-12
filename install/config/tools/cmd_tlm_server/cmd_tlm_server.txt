@@ -1,3 +1,6 @@
 TITLE 'COSMOS Command and Telemetry Server'
 AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
 #COLLECT_METADATA
+
+INTERFACE VEHICLE_INT tcpip_client_interface.rb 127.0.0.1 8888 8888 5.0 nil LENGTH 0 32 4
+	TARGET VEHICLE
