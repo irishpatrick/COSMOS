@@ -1,5 +1,7 @@
-TELEMETRY VEHICLE TEMSP BIG_ENDIAN "Temperature Telemetry"
+TELEMETRY VEHICLE TEMPS BIG_ENDIAN "Temperature Telemetry"
 	ITEM LENGTH 0 32 UINT "Packet Length"
 	ID_ITEM TLM_ID 32 32 INT 3 "Message Identifier"
 	ITEM TEMP1 64 32 FLOAT "Temperature 1"
+        LIMITS DEFAULT 1 ENABLED -0.8 -0.2 0.2 0.8
 	ITEM TEMP2 96 32 FLOAT "Temperature 2"
+        LIMITS DEFAULT 1 ENABLED -0.8 -0.2 0.2 0.8

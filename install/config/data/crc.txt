@@ -2,8 +2,10 @@ USER_MODIFIED
 "lib/user_version.rb" 0x8F282EE9
 "config/targets/SYSTEM/cmd_tlm/meta_tlm.txt" 0x07CDABCB
 "config/targets/SYSTEM/target.txt" 0x07E82776
-"config/targets/VEHICLE/cmd_tlm/vehicle_tlm.txt" 0x43306ED0
-"config/targets/VEHICLE/cmd_tlm/vehicle_cmds.txt" 0x423D06C1
+"config/targets/SYSTEM/screens/meta.txt" 0xBA40DB4B
+"config/targets/VEHICLE/cmd_tlm/vehicle_tlm.txt" 0x1EC2F7B0
+"config/targets/VEHICLE/cmd_tlm/vehicle_cmds.txt" 0xBE2E1DFA
+"config/targets/VEHICLE/screens/temsp.txt" 0x2D3C65B8
 "config/system/system.txt" 0xC1D34D90
 "config/dart/Gemfile" 0x97CC0D80
 "config/tools/handbook_creator/handbook_creator.txt" 0x64E4B5CC
@@ -47,6 +49,7 @@ USER_MODIFIED
 "config/tools/opengl_builder/README.txt" 0x93B2C07E
 "config/tools/tlm_grapher/README.txt" 0x93B2C07E
 "config/tools/cmd_tlm_server/cmd_tlm_server.txt" 0x36E6609B
+"config/tools/limits_monitor/limits_monitor.txt" 0x00000000
 "config/tools/limits_monitor/README.txt" 0x93B2C07E
 "config/data/README.txt" 0x93B2C07E
 "tools/LimitsMonitor.bat" 0x2B98E027
